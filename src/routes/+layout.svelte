@@ -3,7 +3,6 @@
 <style>
   /* Add your own fonts and global styles here. */
 
-
   /* The code below resets the browser's default styles. It's a good idea to include this in your layout component. */
   :global(body) {
     margin: 0;
@@ -30,5 +29,9 @@
     font-size: 1.5rem;
     font-weight: 300;
     margin: 0 0 1rem 0;
+  }
+  @font-face {
+    font-family: hyper-scrypt;
+    src: url("HyperScrypt-Stencil_web.woff2") format("woff2");
   }
 </style>
