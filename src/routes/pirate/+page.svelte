@@ -24,12 +24,21 @@
     color: #d9edff;
     font-size: 400%;
     font-family: hyper-scrypt;
+    transition: 1.5s;
+  }
+  h2:hover {
+    color: #880808;
   }
 
   .background {
     background-image: url("ship.gif");
-    background-position: center;
+    background-position: left;
     background-repeat: no-repeat;
+    transition: 5s;
+  }
+  .background:hover {
+    background-position: right;
+    transition: 15s;
   }
   p {
     font-family: basteleur;
@@ -38,6 +47,12 @@
     margin-right: 21%;
     padding: 1%;
     margin-top: 8%;
+    transition: 2s;
+  }
+  p:hover {
+    font-size: larger;
+    background-color: whitesmoke;
+    transition: 2s;
   }
   main {
     background-image: url("sea.gif");
