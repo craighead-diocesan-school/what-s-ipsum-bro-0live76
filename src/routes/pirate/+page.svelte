@@ -1,5 +1,5 @@
 <main>
-  <div>
+  <div class="heading">
     <img src="poison.png" alt="" />
     <h2>Yar Pirate Ipsum</h2>
     <img src="poison.png" alt="" />
@@ -12,24 +12,36 @@
 </main>
 
 <style>
-  h2 {
-    font-family: hyper-scrypt;
-    color: #d9edff;
-    font-size: 500%;
-    padding: 4%;
-  }
-
-  div {
+  .heading {
     display: flex;
-    background-image: url("black-flag.png");
-    background-size: 100%;
     align-items: center;
     justify-content: space-around;
+    background-image: url("black-flag.png");
+    padding-top: 6%;
+    padding-bottom: 6%;
   }
+  h2 {
+    color: #d9edff;
+    font-size: 400%;
+    font-family: hyper-scrypt;
+  }
+
   .background {
-    background-image: url("sea.gif");
+    background-image: url("ship.gif");
     background-position: center;
     background-repeat: no-repeat;
-    align-items: normal;
+  }
+  p {
+    font-family: basteleur;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-left: 21%;
+    margin-right: 21%;
+    padding: 1%;
+    margin-top: 8%;
+  }
+  main {
+    background-image: url("sea.gif");
+    background-position: bottom;
+    padding-bottom: 1.5%;
   }
 </style>
