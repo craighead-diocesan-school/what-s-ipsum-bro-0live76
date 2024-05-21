@@ -17,6 +17,7 @@
     align-items: center;
     justify-content: space-around;
     background-image: url("black-flag.png");
+    background-size: cover;
     padding-top: 6%;
     padding-bottom: 6%;
   }
@@ -50,13 +51,15 @@
     transition: 2s;
   }
   p:hover {
-    font-size: larger;
+    /* font-size: larger; */
     background-color: whitesmoke;
+    transform: scale(1.1);
     transition: 2s;
   }
   main {
     background-image: url("sea.gif");
     background-position: bottom;
+    background-size: 50%;
     padding-bottom: 1.5%;
   }
 </style>
