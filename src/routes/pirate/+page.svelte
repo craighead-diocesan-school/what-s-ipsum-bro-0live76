@@ -1,9 +1,14 @@
+<script>
+  import Nav from "$lib/Nav.svelte"
+</script>
+
 <main>
   <div class="heading">
     <img src="poison.png" alt="" />
     <h2>Yar Pirate Ipsum</h2>
     <img src="poison.png" alt="" />
   </div>
+  <Nav />
   <div class="background">
     <p>Maroon square-rigged rope's end spirits fathom tackle bilge rat careen cackle fruit splice the main brace. Arr to go on account bilge six pounders smartly yo-ho-ho yawl tack boatswain maroon. Barque hogshead coffer Buccaneer loot fire ship Shiver me timbers Blimey salmagundi reef.</p>
 

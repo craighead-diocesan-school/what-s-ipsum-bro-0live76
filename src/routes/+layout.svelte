@@ -39,4 +39,9 @@
     font-family: basteleur;
     src: url("Basteleur-Moonlight.woff2") format("woff2");
   }
+
+  @font-face {
+    font-family: jacquard24;
+    src: url("Jacquard24-Regular.ttf") format("ttf");
+  }
 </style>
