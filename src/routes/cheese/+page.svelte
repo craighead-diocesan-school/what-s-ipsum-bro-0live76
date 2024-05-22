@@ -1,9 +1,14 @@
+<script>
+  import Nav from "$lib/Nav.svelte"
+</script>
+
 <main>
   <div class="heading">
     <img src="cheese.png" alt="" />
     <h2>Pee-YOO Cheese Ipsum</h2>
     <img src="cheese.png" alt="" />
   </div>
+  <Nav />
   <div class="body">
     <p>Cheesy grin parmesan taleggio. Brie boursin pecorino cheesy feet taleggio hard cheese roquefort when the cheese comes out everybody's happy. St. agur blue cheese port-salut bocconcini cheesecake rubber cheese mozzarella stilton cheese strings. Bocconcini.</p>
     <iframe src="https://giphy.com/embed/SkmOdeRVdFZTi" width="480" height="349" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>

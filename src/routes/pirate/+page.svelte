@@ -3,12 +3,15 @@
 </script>
 
 <main>
-  <div class="heading">
-    <img src="poison.png" alt="" />
-    <h2>Yar Pirate Ipsum</h2>
-    <img src="poison.png" alt="" />
+  <div class="flagbackground">
+    <div class="heading">
+      <img src="poison.png" alt="" />
+      <h2>Yar Pirate Ipsum</h2>
+      <img src="poison.png" alt="" />
+    </div>
+    <Nav />
   </div>
-  <Nav />
+
   <div class="background">
     <p>Maroon square-rigged rope's end spirits fathom tackle bilge rat careen cackle fruit splice the main brace. Arr to go on account bilge six pounders smartly yo-ho-ho yawl tack boatswain maroon. Barque hogshead coffer Buccaneer loot fire ship Shiver me timbers Blimey salmagundi reef.</p>
 
@@ -21,6 +24,9 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+  }
+
+  .flagbackground {
     background-image: url("black-flag.png");
     background-size: cover;
     padding-top: 6%;
