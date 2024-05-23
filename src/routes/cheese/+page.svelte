@@ -23,6 +23,11 @@
     font-size: 500%;
     padding-top: 3%;
     font-family: "Jacquard 24", system-ui;
+    transition: 1s;
+  }
+  h2:hover {
+    color: rgb(255, 213, 0);
+    transition: 1s;
   }
   p {
     font-size: 180%;
