@@ -20,6 +20,7 @@
       <iframe src="https://giphy.com/embed/SkmOdeRVdFZTi" width="480" height="349" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
       <img class="middle" src="medCheese2.jpeg" alt="Medieval people with cheese" />
     </div>
+    <p class="quote">"Everybody knows the moon is made of cheese." – Wallce, 1390</p>
     <p>Fromage the big cheese camembert de normandie. Cut the cheese gouda brie the big cheese when the cheese comes out everybody's happy squirty cheese cut the cheese gouda. Boursin cottage cheese cheeseburger camembert de normandie cheese slices goat port-salut danish fontina. Emmental caerphilly cream cheese mozzarella camembert de normandie cheesy feet.</p>
   </div>
   <audio controls autoplay>
@@ -40,7 +41,15 @@
     color: rgb(255, 213, 0);
     transition: 1s;
   }
-
+  .quote {
+    background-color: #fff;
+    text-align: center;
+    font-size: 230%;
+  }
+  .quote:hover {
+    background-color: #fff;
+    transform: scale(1.1);
+  }
   .centerpics {
     display: flex;
     align-content: center;
