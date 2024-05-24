@@ -2,6 +2,9 @@
   import Nav from "$lib/Nav.svelte"
 </script>
 
+<svelte:head>
+  <title>Cupcake Ipsum</title>
+</svelte:head>
 <main>
   <div class="heading">
     <iframe src="https://giphy.com/embed/xUA7aPGFArAjWq7TC8" frameBorder="0" class="giphy-embed"></iframe>

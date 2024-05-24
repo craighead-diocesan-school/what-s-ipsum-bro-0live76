@@ -3,6 +3,9 @@
   import Footer from "$lib/Footer.svelte"
 </script>
 
+<svelte:head>
+  <title>What's Ipsum Bro</title>
+</svelte:head>
 <Header />
 
 <main>

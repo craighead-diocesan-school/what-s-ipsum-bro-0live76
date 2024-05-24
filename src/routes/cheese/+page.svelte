@@ -2,6 +2,9 @@
   import Nav from "$lib/Nav.svelte"
 </script>
 
+<svelte:head>
+  <title>Cheese Ipsum</title>
+</svelte:head>
 <main>
   <div class="heading">
     <img src="cheese.png" alt="" />
@@ -9,7 +12,12 @@
     <img src="cheese.png" alt="" />
   </div>
   <Nav />
+
   <div class="body">
+    <audio controls autoplay>
+      <source src="medievalMusic.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
     <p>Cheesy grin parmesan taleggio. Brie boursin pecorino cheesy feet taleggio hard cheese roquefort when the cheese comes out everybody's happy. St. agur blue cheese port-salut bocconcini cheesecake rubber cheese mozzarella stilton cheese strings. Bocconcini.</p>
     <div class="centerpics">
       <img class="middle" src="medCheese1.jpeg" alt="Medieval people with cheese" />
@@ -32,6 +40,7 @@
     color: rgb(255, 213, 0);
     transition: 1s;
   }
+
   .centerpics {
     display: flex;
     align-content: center;

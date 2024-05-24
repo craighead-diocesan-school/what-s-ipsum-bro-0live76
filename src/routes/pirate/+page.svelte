@@ -2,6 +2,9 @@
   import Nav from "$lib/Nav.svelte"
 </script>
 
+<svelte:head>
+  <title>Pirate Ipsum</title>
+</svelte:head>
 <main>
   <div class="flagbackground">
     <div class="heading">

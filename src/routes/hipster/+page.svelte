@@ -2,6 +2,9 @@
   import Nav from "$lib/Nav.svelte"
 </script>
 
+<svelte:head>
+  <title>Hipster Ipsum</title>
+</svelte:head>
 <main>
   <h2>You Probably Haven't Heard of Hipster Ipsum</h2>
   <Nav />
