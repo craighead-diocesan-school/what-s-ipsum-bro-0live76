@@ -14,10 +14,6 @@
   <Nav />
 
   <div class="body">
-    <audio controls autoplay>
-      <source src="medievalMusic.mp3" type="audio/mpeg" />
-      Your browser does not support the audio element.
-    </audio>
     <p>Cheesy grin parmesan taleggio. Brie boursin pecorino cheesy feet taleggio hard cheese roquefort when the cheese comes out everybody's happy. St. agur blue cheese port-salut bocconcini cheesecake rubber cheese mozzarella stilton cheese strings. Bocconcini.</p>
     <div class="centerpics">
       <img class="middle" src="medCheese1.jpeg" alt="Medieval people with cheese" />
@@ -26,6 +22,10 @@
     </div>
     <p>Fromage the big cheese camembert de normandie. Cut the cheese gouda brie the big cheese when the cheese comes out everybody's happy squirty cheese cut the cheese gouda. Boursin cottage cheese cheeseburger camembert de normandie cheese slices goat port-salut danish fontina. Emmental caerphilly cream cheese mozzarella camembert de normandie cheesy feet.</p>
   </div>
+  <audio controls autoplay>
+    <source src="medievalMusic.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
 </main>
 
 <style>
