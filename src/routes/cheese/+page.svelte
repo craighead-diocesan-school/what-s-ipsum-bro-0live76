@@ -11,8 +11,11 @@
   <Nav />
   <div class="body">
     <p>Cheesy grin parmesan taleggio. Brie boursin pecorino cheesy feet taleggio hard cheese roquefort when the cheese comes out everybody's happy. St. agur blue cheese port-salut bocconcini cheesecake rubber cheese mozzarella stilton cheese strings. Bocconcini.</p>
-    <iframe src="https://giphy.com/embed/SkmOdeRVdFZTi" width="480" height="349" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-
+    <div class="centerpics">
+      <img class="middle" src="medCheese1.jpeg" alt="Medieval people with cheese" />
+      <iframe src="https://giphy.com/embed/SkmOdeRVdFZTi" width="480" height="349" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+      <img class="middle" src="medCheese2.jpeg" alt="Medieval people with cheese" />
+    </div>
     <p>Fromage the big cheese camembert de normandie. Cut the cheese gouda brie the big cheese when the cheese comes out everybody's happy squirty cheese cut the cheese gouda. Boursin cottage cheese cheeseburger camembert de normandie cheese slices goat port-salut danish fontina. Emmental caerphilly cream cheese mozzarella camembert de normandie cheesy feet.</p>
   </div>
 </main>
@@ -29,6 +32,15 @@
     color: rgb(255, 213, 0);
     transition: 1s;
   }
+  .centerpics {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+  }
+  .middle {
+    width: 30%;
+    padding: 2%;
+  }
   p {
     font-size: 180%;
     background-color: rgba(255, 230, 4, 0.434);
@@ -41,16 +53,14 @@
     transition: 1s;
     background-color: rgb(255, 230, 4);
   }
-  iframe {
-    padding-left: 23%;
-  }
+
   .heading {
     display: flex;
     align-content: center;
     justify-content: space-around;
   }
   .body {
-    padding-top: 8%;
+    padding-top: 3%;
     padding-left: 15%;
     padding-right: 15%;
   }
